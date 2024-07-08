@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-header {
+    height: 80px;
+    background-color: lightblue;
+    padding: 15px 0;
+}
+
+.header {
+    max-width: 1200px;
+    min-height: 50px;
+    margin: 0 auto;
+    display: flex;
+    background-color: white;
+}
+
+.menu {
+    flex-basis: 20%;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    flex-basis: 60%;
+}
+
+.box {
+    min-height: 500px;
+    margin: 0 auto;
+    padding: 60px 0;
+    background-color: lightgrey;
+}
+
+.box:nth-child(odd) {
+    background-color: rgb(233, 229, 229);
+}
+
+.card {
+    max-width: 1200px;
+    min-height: 400px;
+    margin: 0 auto;
+    background-color: pink;
+    display: flex;
+}
+
+.card.first {
+    flex-basis: 70%;
+    min-height: 400px;
+}
+
+.image {
+    flex-basis: 60%;
+    background-color: violet;
+}
+
+.explanation {
+    flex-basis: 40%;
+    background-color: blueviolet;
+}
+
+.box .last {
+    min-height: 700px;
+}
+
+.card .last {
+    min-height: 600px;
+}
+
+.box.foot {
+    background-color: grey;
+}
+
+.links {
+    border: 1px solid black;
+    flex-basis: 20%;
+}
+
+.links.socials {
+    flex-basis: 40%;
+    background-color: blueviolet;
+}
+
+.box.footer {
+    min-height: 80px;
+    background-color: grey;
+}
+
+.card.footer {
+    flex-basis: 80%;
+    min-height: 50px;
+    justify-content: space-between;
+}
+
