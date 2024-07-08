@@ -58,6 +58,10 @@ h1 {
     margin-bottom: 25px;
 }
 
+.download-link {
+    margin-top: 15px;
+}
+
 .jumbo {
     min-height: 500px;
     padding: 60px 0;
@@ -104,6 +108,10 @@ h2 {
 
 .last-paragraph {
     text-align: center;
+}
+
+.h-black {
+    color: black;
 }
 
 footer {
