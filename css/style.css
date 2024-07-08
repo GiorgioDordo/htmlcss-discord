@@ -44,12 +44,12 @@ header {
     color: white;
 }
 
-.menu.center {
+.menu-center {
     flex-grow: 1;
     text-align: center;
 }
 
-.menu.center > * {
+.menu-center > * {
     padding: 10px 10px;
 }
 
@@ -90,25 +90,31 @@ h2 {
     padding-top: 30px;
 }
 
-.box .last {
-    min-height: 900px;
+.box-last {
+    min-height: 100px;
     background-color: aliceblue;
 }
 
-.card .last {
+.card-last {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     min-height: 600px;
+}
+
+.last-paragraph {
+    text-align: center;
 }
 
 footer {
     background-color: rgb(35,39,42);
 }
 
-.card .foot {
+.card-foot {
     justify-content: center;
 }
 
-.box.foot {
+.box-foot {
     padding-bottom: 0;
 }
 
@@ -117,7 +123,7 @@ footer {
 }
 
 
-.links.socials {
+.socials {
     flex-direction: column;
     justify-content: flex-start;
     flex-basis: 40%;
@@ -138,7 +144,7 @@ h3 {
 }
 
 
-.links.info {
+.infos {
     padding-left: 20px;
     flex-basis: 20%;
 }
@@ -156,12 +162,12 @@ hr {
     margin-top: 30px;
 }
 
-.box.footer {
+.box-footer {
     margin-top: 0;
     min-height: 80px;
 }
 
-.card.footer {
+.card-footer {
     flex-basis: 80%;
     min-height: 50px;
     justify-content: space-between;
