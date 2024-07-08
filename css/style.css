@@ -58,6 +58,11 @@ header {
     padding: 10px 10px;
 }
 
+h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
 .jumbo {
     min-height: 500px;
     padding: 60px 0;
@@ -71,6 +76,16 @@ header {
     padding-top:50px;
 }
 
+.item {
+    width: 542.4px;
+    height: 352px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
 .image {
     flex-basis: 60%;
     background-color: violet;
@@ -79,6 +94,7 @@ header {
 .explanation {
     flex-basis: 40%;
     background-color: blueviolet;
+    padding-top: 30px;
 }
 
 .box .last {
