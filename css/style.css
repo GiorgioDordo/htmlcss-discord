@@ -4,27 +4,21 @@
     box-sizing: border-box;
 }
 
-.debug .border {
+/* .debug .border {
     border: 2px dashed;
-}
+} */
 
 .box {
     min-height: 500px;
     padding: 50px 0;
-    background-color: lightgrey;
 }
 
 .card {
     max-width: 1200px;
     min-height: 400px;
     margin: 0 auto;
-    background-color: pink;
     display: flex;
 }
-
-.box:nth-child(odd) {
-    background-color: grey;
-}    
 
 header {
     background-image: url(/img/jumbo.png);
@@ -47,14 +41,15 @@ header {
 
 .menu {
     text-align: center;
+    color: white;
 }
 
-.menu-center {
+.menu.center {
     flex-grow: 1;
     text-align: center;
 }
 
-.menu-center > * {
+.menu.center > * {
     padding: 10px 10px;
 }
 
@@ -88,12 +83,10 @@ h2 {
 
 .image {
     flex-basis: 60%;
-    background-color: violet;
 }
 
 .explanation {
     flex-basis: 40%;
-    background-color: blueviolet;
     padding-top: 30px;
 }
 
@@ -105,28 +98,71 @@ h2 {
     min-height: 600px;
 }
 
+footer {
+    background-color: rgb(35,39,42);
+}
+
+.card .foot {
+    justify-content: center;
+}
+
 .box.foot {
-    background-color: grey;
+    padding-bottom: 0;
 }
 
 .links {
-    border: 1px solid black;
+    color: white;
+}
+
+
+.links.socials {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-basis: 40%;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: rgb(114,137,218);
+}
+
+.logo-ita {
+    margin-bottom: 15px;
+}
+
+.flag-ita {
+    width: 20px;
+}
+
+
+.links.info {
+    padding-left: 20px;
     flex-basis: 20%;
 }
 
-.links.socials {
-    flex-basis: 40%;
-    background-color: blueviolet;
+h4 {
+    color: rgb(114,137,218);
+}
+
+ul {
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+hr {
+    margin-top: 30px;
 }
 
 .box.footer {
+    margin-top: 0;
     min-height: 80px;
-    background-color: grey;
 }
 
 .card.footer {
     flex-basis: 80%;
     min-height: 50px;
     justify-content: space-between;
+    align-items: center;
 }
 
