@@ -91,10 +91,12 @@ h2 {
 }
 
 .box .last {
-    min-height: 700px;
+    min-height: 900px;
+    background-color: aliceblue;
 }
 
 .card .last {
+    text-align: center;
     min-height: 600px;
 }
 
